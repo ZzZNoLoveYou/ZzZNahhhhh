@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "onyxhack",
+  "version": "1.0.0",
+  "name": "Onyx Hack",
+  "description": "Custom hack client with ESP, Hitbox, KillAura",
+  "authors": ["Onyx"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.onyx.hack.MainHack"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
